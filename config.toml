@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Don't Follow Me!"
-baseurl = "http://localhost:1313/"
+baseurl = "http://amterano.net/"
 theme = "casper"
 Copyright = "All rights reserved - 2017"
 canonifyurls = true
@@ -10,7 +10,7 @@ canonifyurls = true
   cover = "images/cover.jpg"
   author = "Leonardo Souza"
   authorlocation = "Passau, Germany"
-  authorwebsite = "http://leo.org"
+  authorwebsite = "http://amterano.net/"
   
 # googleAnalyticsUserID = "UA-79101-12"
 # Optional RSS-Link, if not provided it defaults to the standard index.xml
