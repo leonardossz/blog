@@ -7,19 +7,18 @@ canonifyurls = true
 
 [params]
 	description = "Occasionally Useful"
-  	cover = "images/cover.jpg"
-  	author = "Leonardo Souza"
-  	authorlocation = "Passau, Germany"
-  	authorwebsite = "http://leo.org"
-  	# logo = "images/me.jpg"
+  cover = "images/cover.jpg"
+  author = "Leonardo Souza"
+  authorlocation = "Passau, Germany"
+  authorwebsite = "http://leo.org"
   
-  # googleAnalyticsUserID = "UA-79101-12"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  # RSSLink = "http://feeds.feedburner.com/..."
-  # githubName = "vjeantet"
-  # twitterName = "vjeantet"
-  # facebookName = ""
-  # linkedinName = ""
+# googleAnalyticsUserID = "UA-79101-12"
+# Optional RSS-Link, if not provided it defaults to the standard index.xml
+# RSSLink = "http://feeds.feedburner.com/..."
+# githubName = "vjeantet"
+# twitterName = "vjeantet"
+# facebookName = ""
+# linkedinName = ""
  	
  	hideHUGOSupport = false
 
@@ -39,3 +38,8 @@ canonifyurls = true
 	name = "Twitter timeline"
 	url = "https://twitter.com/f10ck3"
 	weight = 101
+
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/leonardossz/"
+  weight = 102
