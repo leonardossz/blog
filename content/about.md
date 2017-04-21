@@ -5,7 +5,7 @@ share = false
 slug = "about"
 draft = false
 menu = "main"
-tags = ["NLP", "Java", "ArtificialIntelligence", "Software Engineer"]
+tags = []
 title = "Who Am I?"
 image = "images/cover.jpg"
 +++
