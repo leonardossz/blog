@@ -12,7 +12,8 @@ canonifyurls = true
   authorlocation = "Passau, Germany"
   authorwebsite = "http://amterano.net/"
   
-# googleAnalyticsUserID = "UA-79101-12"
+  googleAnalyticsUserID = "UA-97884890-1"
+
 # Optional RSS-Link, if not provided it defaults to the standard index.xml
 # RSSLink = "http://feeds.feedburner.com/..."
 # githubName = "vjeantet"
