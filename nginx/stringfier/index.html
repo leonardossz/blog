@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+        <script type="text/javascript">
+
+                function stringfy() {
+                        var jStrfied = "StringBuilder sb = new StringBuilder();\n";
+                        var text = document.getElementById("sourceTextArea");
+                        text = text.value.split("\n"); 
+                        for (i in text) {
+                                var line = text[i];
+                                var replaced = line.replace(/\"/g, "\\\"");
+                                jStrfied += "sb.append(\"" + replaced + "\");\n"; 
+                        }
+                        document.getElementById("targetTextArea").value = jStrfied;
+                }
+
+                function loadSample() {
+                        var str  = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+                            str += "<root>\n";
+                            str += "   <child1 attr1=\"abc\">blah</child1>\n";
+                            str += "   <child2/>\n";
+                            str += "   <child3>bleh</child3>\n";
+                            str += "</root>";
+                        document.getElementById("sourceTextArea").value = str;
+                        this.stringfy();
+                }
+
+                function reset() {
+                        var source = document.getElementById("sourceTextArea");
+                        source.value = "";
+                        source.onFocus = null;
+
+                        var target = document.getElementById("targetTextArea");
+                        target.value = "";
+                        target.onFocus = null;
+                }
+
+        </script>
+</head>
+ <body onLoad="loadSample()">
+        <div align="center">
+                <h1>Java Stringfier!</h1>
+                <p>Paste the contents you wish to Java stringfy and hit the button Stringfy!</p>
+                <textarea onFocus="reset()" id="sourceTextArea" rows="10" cols="80"></textarea>   
+                <p><button type="button" onclick="stringfy()">Stringfy!</button></p>
+                <textarea id="targetTextArea" rows="10" cols="80"></textarea>
+                <p><a href="http://amterano.net">amterano.net</a></p>
+        </div>
+ </body>
+</html>
