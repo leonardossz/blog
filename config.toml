@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Don't Follow Me!"
 baseurl = "http://amterano.net/"
 theme = "casper"
-Copyright = "All rights reserved - 2017"
+Copyright = "All rights reserved - 2018"
 canonifyurls = true
 
 [params]
