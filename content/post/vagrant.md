@@ -4,7 +4,7 @@ draft = false
 title = "This Hugo Blog in a Vagrant Environment"
 slug = "this_hugo_blog_in_a_vagrant_environment"
 tags = ["Vagrant","Hugo"]
-image =  "images/hugologo.png"
+image =  "images/vagrantdarter.jpg"
 comments = false
 share = true
 menu= ""
@@ -75,3 +75,4 @@ What do you have?
 See my notes [here](https://github.com/leonardossz/boxes) to get more details.
 
 Thanks!
+
