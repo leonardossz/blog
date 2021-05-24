@@ -10,8 +10,6 @@ title = "Who Am I?"
 image = "images/cover.jpg"
 +++
 
-I am a brazilian Software Engineer and Entrepreneur with +15 years of experience in the field living in Germany and also a Java enthusiast interested in Natural Language Processing, Machine Learning and Semantic Computing. 
+I am a Software Engineer and former Entrepreneur with +20 years of experience. My main interests are Microservices, Java, Python, NodeJS, Cloud Computing, Distributed Applications, Descentralized Applications (dApps), Natural Language Processing (NLP), Semantic Web Technologies etc. 
 
-This space is also my personal collection of useful trickys and good practices in Software Engineering that can be valuable for someone else.
-
-Let's build the [Sky Net](https://en.wikipedia.org/wiki/Skynet_(Terminator)) ;)
+This space is my personal collection of useful tricks and might have some good practices in Software Engineering that can be valuable for someone else. Don't take me too serious ;)
